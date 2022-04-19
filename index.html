@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài tập JavaScript buổi 2 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bài 1 -->
+    <div class="container py-5">
+      <div class="aq mb-3">
+        Bài 1: Tính tiền lương
+      </div>
+      Nhập tiền lương mỗi ngày:
+      <input id="luongNgay" type="text" >
+      Nhập số ngày đi làm:
+      <input id="ngayDiLam" type="text">
+      
+      <button id="btnTinhLuong" class="btn btn-danger">Tính Tiền Lương</button>
+      <div class="aq" id="soLuong"></div>
+    </div>
+
+    <!-- Bài 2 -->
+    <div class="container py-5">
+      <div class="bq mb-3">
+        Bài 2: Tính giá trị trung bình của 5 số
+      </div>
+      Nhập 5 số bất kỳ: <br> <br>
+      <input class="so mb-3" id="so1" type="text">
+      <br>
+      <input class="so mb-3" id="so2" type="text">
+      <br>
+      <input class="so mb-3" id="so3" type="text">
+      <br>
+      <input class="so mb-3" id="so4" type="text">
+      <br>
+      <input class="so mb-3" id="so5" type="text">
+      <br>
+      
+      <button id="btnTinhTb" class="btn btn-primary mb-3">Tính Giá Trị Trung Bình</button>
+      <br>
+      <div class="bq" id="soTb"></div>
+    </div>
+    
+    <!-- Bài 3 -->
+    <div class="container py-5">
+      <div class="cq mb-3">
+        Bài 3: Quy đổi tiền
+      </div>
+      Nhập tiền USD cần đổi:
+      <input id="tienDo" type="text">
+      Tỉ giá quy đổi:
+      <input id="tienViet" type="text" value="23500">
+      
+      <button id="btnDoiTien" class="btn btn-success">Quy đổi tiền</button>
+      <div class="cq" id="tienDoi"></div>
+    </div>
+
+    <!-- Bài 4 -->
+    <div class="container py-5">
+      <div class="dq mb-3">
+        Bài 3: Tính chu vi diện tích hình chữ nhật
+      </div>
+      Nhập chiều dài:
+      <input id="chieuDai" type="text">
+
+      Nhập chiều rộng:
+      <input id="chieuRong" type="text">
+
+      <div class="mt-3">
+
+      <button id="btnChuVi" class="btn btn-warning">Tính chu vi</button>
+      <button id="btnDienTich" class="btn btn-warning">Tính diện tích</button>
+      </div>
+      <div class="dq" id="CVDT"></div>
+    </div>
+
+    <!-- Bài 5 -->
+    <div class="container py-5">
+      <div class="eq mb-3">
+        Bài 5: Tính tổng 2 ký số của số vừa nhập
+      </div>
+      Nhập 1 số có 2 chữ số bất kỳ:
+      <input id="soBatKy" type="text">
+      
+      
+      <button id="btnKySo" class="btn btn-info">Tổng 2 ký số</button>
+      <div class="eq" id="tongKySo"></div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.aq {
+    color: red; font-weight: bold;
+}
+
+.bq {
+    color: blue; font-weight: bold;
+}
+
+.so{
+    text-align: center;
+    width: 100px;
+}
+
+.cq {
+    color: green; font-weight: bold;
+}
+
+.dq {
+    color: #ffc107; font-weight: bold;
+}
+
+.eq {
+    color: #17a2b8; font-weight: bold;
+}
